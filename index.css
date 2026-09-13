@@ -1,0 +1,38 @@
+/* Navbar Mobile Adjustments */
+header, .navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 10px;
+}
+
+/* Controls & Search Inputs */
+.search-bar, .controls, form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.search-bar input, 
+.search-bar button, 
+select {
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+/* Responsive Grid for Movie Cards */
+.movie-grid, .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1r));
+  gap: 15px;
+  padding: 15px;
+}
+
+@media (max-width: 600px) {
+  .movie-grid, .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row on mobile */
+  }
+}

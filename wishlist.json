@@ -1,0 +1,257 @@
+[
+  {
+    "adult": false,
+    "backdrop_path": "/nfNaAiiILjYRc2CKkId1ZfPTtlh.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      }
+    ],
+    "homepage": "",
+    "id": 1408162,
+    "imdb_id": "tt35836025",
+    "origin_country": [
+      "IN"
+    ],
+    "original_language": "ta",
+    "original_title": "விஸ்வநாத் & சன்ஸ்",
+    "overview": "A celebrated Olympian shooter travels to America looking for a donor to help his sick child — but unexpected romance complicates his search.",
+    "popularity": 114.1509,
+    "poster_path": "/mLsvCffzpxxDwC7yVLJSLLjgzoq.jpg",
+    "production_companies": [
+      {
+        "id": 107352,
+        "logo_path": "/qNLrEbrNigDNR6QgaRtwXtRIwgx.png",
+        "name": "Sithara Entertainments",
+        "origin_country": "IN"
+      },
+      {
+        "id": 172461,
+        "logo_path": null,
+        "name": "Srikara Studios",
+        "origin_country": "IN"
+      },
+      {
+        "id": 166697,
+        "logo_path": null,
+        "name": "Fortune Four Cinemas",
+        "origin_country": "IN"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "IN",
+        "name": "India"
+      }
+    ],
+    "release_date": "2026-08-14",
+    "revenue": 0,
+    "runtime": 161,
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "Tamil",
+        "iso_639_1": "ta",
+        "name": "தமிழ்"
+      },
+      {
+        "english_name": "Telugu",
+        "iso_639_1": "te",
+        "name": "తెలుగు"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Vishwanath & Sons",
+    "video": false,
+    "vote_average": 7.3,
+    "vote_count": 15
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
+    "genre_ids": [
+      10751,
+      14,
+      35,
+      12
+    ],
+    "id": 1108427,
+    "title": "Moana",
+    "original_language": "en",
+    "original_title": "Moana",
+    "overview": "Teenage Moana answers the Ocean's call and, for the first time, voyages beyond the reef of her island of Motunui with infamous demigod Maui on an unforgettable journey to restore prosperity to her people.",
+    "popularity": 326.2097,
+    "poster_path": "/gaet1xQ2nxrG0V1Ep9T20ZMNEIC.jpg",
+    "release_date": "2026-07-08",
+    "softcore": false,
+    "video": false,
+    "vote_average": 7.109,
+    "vote_count": 564
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/oz4U9eA6ilYf1tyiVuGmkftdLac.jpg",
+    "belongs_to_collection": {
+      "id": 1156666,
+      "name": "Fault Collection",
+      "poster_path": "/sClS8nmwN9uVRy4rzwzil01aTY9.jpg",
+      "backdrop_path": "/7N9p8D39MXJDfm14zlBwW7mBh7g.jpg"
+    },
+    "budget": 0,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10749,
+        "name": "Romance"
+      },
+      {
+        "id": 53,
+        "name": "Thriller"
+      }
+    ],
+    "homepage": "https://www.amazon.com/gp/video/detail/B0B683GY1G",
+    "id": 1010581,
+    "imdb_id": "tt21909764",
+    "origin_country": [
+      "ES"
+    ],
+    "original_language": "es",
+    "original_title": "Culpa mía",
+    "overview": "Noah must leave her city, boyfriend, and friends to move into William Leister's mansion, the flashy and wealthy husband of her mother Rafaela. As a proud and independent 17 year old, Noah resists living in a mansion surrounded by luxury. However, it is there where she meets Nick, her new stepbrother, and the clash of their strong personalities becomes evident from the very beginning.",
+    "popularity": 31.8804,
+    "poster_path": "/w46Vw536HwNnEzOa7J24YH9DPRS.jpg",
+    "production_companies": [
+      {
+        "id": 32485,
+        "logo_path": "/fVXreZkiJTOq1cCi6htSQlPSy7R.png",
+        "name": "Pokeepsie Films",
+        "origin_country": "ES"
+      },
+      {
+        "id": 208240,
+        "logo_path": "/hYREaYiVyoGVP26CbDpAWD3wDRD.png",
+        "name": "Amazon Studios",
+        "origin_country": "ES"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "ES",
+        "name": "Spain"
+      }
+    ],
+    "release_date": "2023-06-08",
+    "revenue": 0,
+    "runtime": 116,
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Love can only survive in the shadow of secrets.",
+    "title": "My Fault",
+    "video": false,
+    "vote_average": 7.726,
+    "vote_count": 4188
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+    "belongs_to_collection": {
+      "id": 531241,
+      "name": "Spider-Man (MCU) Collection",
+      "poster_path": "/yeba3Y820OjApZO9aJevDsNeMEd.jpg",
+      "backdrop_path": "/AvnqpRwlEaYNVL6wzC4RN94EdSd.jpg"
+    },
+    "budget": 225000000,
+    "genres": [
+      {
+        "id": 878,
+        "name": "Science Fiction"
+      },
+      {
+        "id": 28,
+        "name": "Action"
+      },
+      {
+        "id": 12,
+        "name": "Adventure"
+      }
+    ],
+    "homepage": "https://spidermanbrandnewday.movie",
+    "id": 969681,
+    "imdb_id": "tt22084616",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Spider-Man: Brand New Day",
+    "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+    "popularity": 756.7679,
+    "poster_path": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+    "production_companies": [
+      {
+        "id": 420,
+        "logo_path": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+        "name": "Marvel Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 5,
+        "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "name": "Columbia Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 84041,
+        "logo_path": "/nw4kyc29QRpNtFbdsBHkRSFavvt.png",
+        "name": "Pascal Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 22213,
+        "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+        "name": "TSG Entertainment",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2026-07-29",
+    "revenue": 2413442530,
+    "runtime": 145,
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "A brand new day starts now.",
+    "title": "Spider-Man: Brand New Day",
+    "video": false,
+    "vote_average": 7.845,
+    "vote_count": 2639
+  }
+]
