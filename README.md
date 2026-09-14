@@ -1,6 +1,6 @@
 # 🎬 Movie Discovery Application
 
-A full-stack movie discovery web application built with **React**, **Node.js/Express**, and the **TMDB (The Movie Database) API**. Users can browse popular movies, search titles, filter by genre, sort results, view detailed movie information in a modal, and manage a persistent wishlist.
+A full-stack movie discovery web application built with **React**, **Node.js**, and the **TMDB (The Movie Database) API**. Users can browse popular movies, search titles, filter by genre, sort results, view detailed movie information in a modal, and manage a persistent wishlist.
 
 ---
 
