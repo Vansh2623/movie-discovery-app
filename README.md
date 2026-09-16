@@ -4,6 +4,20 @@ A full-stack movie discovery web application built with **React**, **Node.js**, 
 
 ---
 
+## 🎬 Project Demonstration
+
+Watch the complete walkthrough video showing mobile responsiveness, movie details modals, search filtering, and wishlist management:
+
+👉 **[Watch Live Demo Video](https://drive.google.com/file/d/1fjY-p5XwS7XENlvEb4vLfvwBg6wv1iVb/view?usp=drive_link)**
+
+## ✨ Features
+
+* **🍿 Dynamic Search & Filtering**: Real-time movie lookup, genre filtering, and sorting powered by TMDB API.
+* **🎬 Movie Details Modal**: Interactive pop-up modal displaying full plot overviews, ratings, and release details.
+* **📱 Responsive Mobile Layout**: Custom CSS 2-column grid optimized for mobile screens and touch interactions.
+* **📌 Wishlist Management**: Save and bookmark favorite movies locally.
+* **🔒 Secure API Proxy**: Node.js/Express backend that safely abstracts TMDB API keys and handles CORS middleware.
+
 ## 📁 Repository Structure
 
 ```text
