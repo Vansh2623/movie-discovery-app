@@ -56,32 +56,23 @@ movie-discovery-app/
 
 ### 🏗️ Technical Decisions & Architectural Highlights
 
-**Backend Abstraction Layer:** The frontend client never communicates directly with TMDB. All calls route through our custom Node.js/Express API to protect secret API keys and transform raw third-party payloads into clean client data.
+**🔒 API Proxy:** Routes requests through an Express backend to hide TMDB secret keys and transform raw payloads.
 
-**In-Memory Caching:** Implemented an in-memory cache map (Map) on the backend with Time-To-Live (TTL) expiration. This minimizes repeated calls to TMDB, respects API rate limits, and improves client response speeds.
+**⚡ In-Memory Caching:** Uses a server-side Map with TTL expiration to minimize third-party API calls and prevent rate limiting.
 
-**Persistent Wishlist Storage:** Wishlist state is synchronized with a server-side JSON file system (wishlist.json), ensuring wishlist data persists even when closing/reopening the browser or restarting the backend server.
+**💾 Persistent Wishlist:** Synchronizes saved movies to a local wishlist.json file for client-side persistence across sessions.
 
-**Resilient Fallbacks:** Safe fallbacks are provided for titles with missing poster images, missing descriptions, or broken API requests.
-
-**Server-Side Pagination and Filtering:** Search queries and genre discovery use server-side pagination, enabling smooth exploration across large result sets without overloading client memory.
-
+**🔄 Server-Side Pagination:** Handles genre filtering, search, and pagination on the backend to keep client memory light.
 
 ### 🤖 AI Collaboration & Transparency Statement
 
 This project was built with the assistance of **Google Gemini**, which served as an interactive coding partner for rapid setup, debugging, and layout optimization.
 
 * **AI-Assisted Tasks**:
-  * **Boilerplate Code Generation**: Generating foundational code snippets for initial Express.js server routes, React component structures, and standard fetch API utility functions.
-  * **Network & Middleware Debugging**: Troubleshooting Express.js routing, CORS configurations, 404 handler errors, and missing `/api` endpoint prefixes.
-  * **Cross-Device Host Resolution**: Formulating dynamic `window.location.hostname` API request patterns to enable local Wi-Fi access on mobile devices.
+I used Gemini to quickly generate initial code structure for React components and Express routes, troubleshoot CORS blocking errors between my client and server, and figure out how to configure dynamic IP binding (window.location.hostname) so my phone could talk to my laptop over local Wi-Fi.
 
 * **Developer Ownership & Core Implementation**:
-  * **Architecture & State**: Designed the overall application architecture, React state flow, and component hierarchy.
-  * **Integration & Persistence**: Implemented backend RESTful endpoints, TMDB API data fetching logic, and local wishlist operations.
-  * **Responsive Layout Optimization**: Adjusting CSS flexbox and grid rules to correct overflowing cards, text collisions, and mobile viewport issues.
-  * **Repository & Deployment**: Managed project file structure, Git version control setup, `.gitignore` rules, and GitHub repository deployment independently.
-  * **Testing & Quality Control**: Independently verified, debugged, and validated all functionality across both desktop browsers and physical mobile devices.
+I designed the app's overall structure, built the TMDB API logic and backend REST endpoints, set up the file-based JSON storage for saved movies, fixed responsive layout bugs on mobile screens, and tested the app across my desktop and physical phone.
 
 ### 🔮 Known Limitations & Future Enhancements
 **Database Upgrade:** Upgrade file system JSON storage to SQLite or MongoDB to support multi-user wishlist profiles.
