@@ -12,16 +12,38 @@ Watch the complete walkthrough video showing mobile responsiveness, movie detail
 
 ## ✨ Features
 
-* **🍿 Dynamic Search & Filtering**: Real-time movie lookup, genre filtering, and sorting powered by TMDB API.
-* **🎬 Movie Details Modal**: Interactive pop-up modal displaying full plot overviews, ratings, and release details.
-* **📱 Responsive Mobile Layout**: Custom CSS 2-column grid optimized for mobile screens and touch interactions.
-* **📌 Wishlist Management**: Save and bookmark favorite movies locally.
-* **🔒 Secure API Proxy**: Node.js/Express backend that safely abstracts TMDB API keys and handles CORS middleware.
+* **🍿 Dynamic Search & Filtering**
+* **🎬 Movie Details Modal**
+* **📱 Responsive Mobile Layout**interactions.
+* **📌 Wishlist Management**
+* **🔒 Secure API Proxy**
 
 ## 📸 Screenshots
 
 ### Homepage
-(Home page.jpg)
+<a href="./Home%20page.jpg">
+  <img src="./Home%20page.jpg" alt="Homepage" width="1000" />
+</a>
+
+### Search bar
+<a href="./Search%20bar.jpg">
+  <img src="./Search%20bar.jpg" alt="Search bar" width="1000" />
+</a>
+
+### Movie Details
+<a href="./Movie%20detail.jpg">
+  <img src="./Movie%20detail.jpg" alt="Movie Details" width="1000" />
+</a>
+
+### Wishlist
+<a href="./Wishlist.jpg">
+  <img src="./Wishlist.jpg" alt="Wishlist" width="1000" />
+</a>
+
+### Mobile View
+<a href="./Mobile%20view.jpg">
+  <img src="./Mobile%20view.jpg" alt="Mobile View" width="250" />
+</a>
 
 ## 📁 Repository Structure
 
