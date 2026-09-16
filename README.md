@@ -18,6 +18,11 @@ Watch the complete walkthrough video showing mobile responsiveness, movie detail
 * **📌 Wishlist Management**: Save and bookmark favorite movies locally.
 * **🔒 Secure API Proxy**: Node.js/Express backend that safely abstracts TMDB API keys and handles CORS middleware.
 
+## 📸 Screenshots
+
+### Homepage
+(Home page.jpg)
+
 ## 📁 Repository Structure
 
 ```text
